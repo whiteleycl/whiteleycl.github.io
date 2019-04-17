@@ -1,43 +1,43 @@
 body {
-    background-image: url('images/titans.jpg');
-    color: #FFFFFF;
-    background-size: cover;
+    background-image: url('images/dogs.jpg');
+    color: #555555;
+    background-size: stretch;
     text-align: left;
     vertical-align: bottom;
-    text-shadow: #00000;
+    text-shadow: #119911;
 }
-
 .button {
-    background-color: #000000;
-    border-style: solid;
-    border-color: coral;
-    border: 15px;
-    padding: 5px;
-    color: white;
+    background-color: #CCCCCC;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 5px;
     font-size: 18px;
     margin: 5px 5px;
-    cursor: pointer;
+    cursor:pointer;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 div {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .active {
-    background-color: #11FF55;
-    border-style: solid;
-    border-color: coral;
-    border: 15px;
-    padding: 5px;
+    background-color: #009933;
+    border: 2px solid #000000;
+    border-radius: 8px;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 5px;
     font-size: 18px;
     margin: 5px 5px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
