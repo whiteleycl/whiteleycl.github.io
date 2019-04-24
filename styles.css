@@ -1,43 +1,44 @@
 body {
-    background-image: url('images/dogs.jpg');
-    color: #555555;
-    background-size: stretch;
+    background-image: url('images/zombies.jpg');
+    color: #FFFFFF;
+    background-size: cover;
     text-align: left;
     vertical-align: bottom;
-    text-shadow: #119911;
+    text-shadow: #00000;
 }
 .button {
-    background-color: #CCCCCC;
-    border-radius: 8px;
-    border: 2px solid #000000;
-    color: black;
+    background-color: #ff1111;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
     font-size: 18px;
     margin: 5px 5px;
-    cursor:pointer;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 .button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.19);
 }
 
 div {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .active {
-    background-color: #009933;
-    border: 2px solid #000000;
-    border-radius: 8px;
+    background-color: #009977;
+    border: 2px solid #ffffff;
     color: white;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
     font-size: 18px;
     margin: 5px 5px;
     cursor: not-allowed;
+    border-radius: 50%;
 }
